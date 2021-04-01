@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin-top: 20px;
+    width: 100%;
+    background: #F5F5F5;
+}
+.container .main{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+.container .main .category{
+    width: 380px;
+    background-color: #fff;
+}
+.list-category{
+    list-style: none;   
+    text-align: justify;
+    color: #000;
+}
+.list-category-item{
+    padding: 15px 20px;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+}
+.main-product1{
+    width: 950px;    
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.product1{
+    padding-bottom: 25px;
+    padding-right: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.product-image1 {
+    width: 274px;
+}
+
+.product-image1 img {
+    width: 274px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+}
+.product-image1:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.product-name1{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: justify;
+    text-indent: 10px;
+}
+.product-name1:hover{
+    transition: 0.7s;
+    color: #EA8025;
+}
+
+.main-product1 .product1 .product-name1 p{
+    font-weight: 700px;
+    font-size: 15px;
+}
+.product-price1{
+    font-weight: 700;
+    font-size: 20px;
+    color: #EA8025;
+    margin-top: 20px;
+    text-align: justify;
+    text-indent: 10px;
+}
+.product-btn1{
+    display: flex; 
+    flex-direction: row;
+}
+.product-btn1 .btn-Mua1{
+    padding: 10px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #EA8025;
+    text-align: center;
+    border: 2px solid #EA8025;
+    font-size: 14px;
+    margin-right: 20px;
+    background-position: right bottom;
+
+}
+.btn-Mua1:hover{
+    background: linear-gradient(to right, #fff 50%, #EA8025 50%);
+    color: #EA8025;
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all .5s ease-out;
+
+}
+.product-btn1 .btn-Xem-Them1{
+    padding: 10px;
+    color: #EA8025;
+    font-weight: 700;
+    background-color: #fff;
+    text-align: center;
+    border: 2px solid #EA8025;
+    font-size: 14px;
+    background: linear-gradient(to right, #EA8025 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+.btn-Xem-Them1:hover{
+    background-position: left bottom;
+    color: #fff;
+}
